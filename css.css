@@ -1,0 +1,63 @@
+
+body{
+    margin: 0px; 
+    background-color: #9ECED8;  
+    
+}
+h1 
+{
+
+   text-align: center;
+   color: #3f676e; 
+
+}
+
+nav {
+    display:inline; 
+    display: flex;
+    justify-content: center;
+    background-color: #3f676e; 
+}
+
+
+
+
+
+
+ li {
+    display:inline-block; 
+    padding: 2px;
+    background-color: #1E6572;
+    font-size: 22px;
+    width: 120px;
+    text-align: center;
+    border: 1px solid #191e22;
+    border-radius: 8px;
+
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #5BA3B0	;
+}
+
+
+li:hover{
+
+    background-color: #9ECED8;  
+ 
+
+}
+
+.link{
+color: rgb(0, 0, 0);
+font-size: 22px;
+margin-left: 100px;
+}
+
+.link:hover{
+    color: rgb(255, 253, 253);
+
+}

@@ -6,4 +6,27 @@
   }
 
 
-  
+
+
+
+.frame {
+  position: relative;
+  display: grid;
+  place-items: center;
+  border: 3px solid blue;
+  width: 120px;
+  height: 350px;
+  margin:auto;
+  background-color: black;
+
+
+ }
+
+  .circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+    border: 5px solid blue;
+
+  }
