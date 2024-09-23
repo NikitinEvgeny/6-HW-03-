@@ -4,7 +4,7 @@ body{
     background-color: #9ECED8;  
     
 }
-h1, h2
+h1, h2, label
 {
 
    text-align: center;
@@ -92,4 +92,42 @@ margin-left: 100px;
     visibility: hidden;
 
 }
+
+.form  {
+
+    display: grid;
+    place-items: center;
+
+}
+
+button{
+    border: 3px solid #3f676e;
+    padding: 3px 7px;
+    border-color: #3f676e;
+   background-color: #8fb2b9;
+   border-radius: 5px;
+   margin: 15px;
+
+}
+
+
+button:hover {
+    color: rgb(250, 250, 243);
+    cursor: pointer;
+    
+    }
+
+
+
+    input[type="text"] {
+        border: 1px solid #3f676e;
+        border-radius: 5px; 
+        background: #ffffff; 
+        outline: none; 
+        height: 24px; 
+        width: 300px; 
+        color: #3f676e; 
+        font-size: 12px; 
+        font-family: Tahoma; 
+     }
 
